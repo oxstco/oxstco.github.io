@@ -1,6 +1,32 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: "喵打公式资料站"
 ---
+
+本站所有链接默认在当前标签页打开。
+如果想在新标签页打开链接，可使用鼠标中键点击。
+
+# 导航
+
+- 松饼麻雀只通过松饼主站发布
+- 文章基本发 B 站专栏
+- 原创音乐目前只投 B 站
+
+# 相关链接
+
+- [松饼麻雀][mjpancake]
+
+# 本人马甲
+
+- 撕站 UID: 3107171
+- 雀魂、萌百：喵打
+- 松饼群及假粉群群主
+- 贴吧：◎喵打
+- GayHub, StackOverflow: rolevax
+
+不在以上列表中的，可能是真的，也可能是假的。（手动滑稽）
+
+未经本人同意，请勿挖掘、传播他人三次相关信息。
+
+[mjpancake]: {{ site.data.link.mjpancake }}
+
