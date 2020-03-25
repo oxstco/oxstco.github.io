@@ -10,23 +10,22 @@ title: "喵打公式资料站"
 
 - 松饼麻雀只通过松饼主站发布
 - 文章基本发 B 站专栏
-- 原创音乐目前只投 B 站
+- 原创音乐目前只投 B 站，作品目录见[此页面](/music/)
 
 # 相关链接
 
 - [松饼麻雀][mjpancake]
 
-# 本人马甲
+# 本人主要马甲
 
 - 撕站 UID: 3107171
-- 雀魂、萌百：喵打
 - 松饼群及假粉群群主
 - 贴吧：◎喵打
-- GayHub, StackOverflow: rolevax
+- GitHub, StackOverflow: rolevax
 
 不在以上列表中的，可能是真的，也可能是假的。（手动滑稽）
 
-未经本人同意，请勿挖掘、传播他人三次相关信息。
+未经本人同意，请勿挖掘、传播他人三次元相关信息。
 
 [mjpancake]: {{ site.data.link.mjpancake }}
 
