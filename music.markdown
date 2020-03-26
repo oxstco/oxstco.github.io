@@ -4,7 +4,7 @@ permalink: /music/
 title: "原创音乐作品目录"
 ---
 
-<script src="js/sort-table.min.js"></script>
+<script src="/js/sort-table.min.js"></script>
 <style>
 table {
   width: 0
