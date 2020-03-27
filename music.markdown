@@ -11,8 +11,6 @@ table {
 }
 </style>
 
-- 下表中「风格」一列只为方便整理，并非严格意义上的流派
-- 仅包含由喵打作曲并编曲的作品，不包括以其它职能参创的作品
 - 点击表头可按相应字段排序。
 
 <table class="js-sort-table" id="demo1">
@@ -20,7 +18,6 @@ table {
 <tr>
 	<th>编号</th>
 	<th>标题</th>
-	<th>风格</th>
 	<th>撕站</th>
 </tr>
 </thead>
@@ -29,7 +26,6 @@ table {
 <tr>
   <td>{{ opus.id }}</td>
   <td>{{ opus.title }}</td>
-  <td>{{ opus.genre }}</td>
   <td>
     {% if opus.bvid == "deleted" %}
       删稿
