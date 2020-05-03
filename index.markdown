@@ -14,7 +14,7 @@ title: "喵打公式资料站"
 
 # 本人主要马甲
 
-- 撕站 UID: 3107171
+- B 站 UID: 3107171
 - 松饼群及假粉群群主
 - GitHub, StackOverflow: rolevax
 

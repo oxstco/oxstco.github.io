@@ -18,7 +18,7 @@ table {
 <tr>
 	<th>编号</th>
 	<th>标题</th>
-	<th>撕站</th>
+	<th>链接</th>
 </tr>
 </thead>
 <tbody>
