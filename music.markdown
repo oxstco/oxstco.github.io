@@ -27,9 +27,9 @@ table {
   <td>{{ opus.id }}</td>
   <td>{{ opus.title }}</td>
   <td>
-    {% if opus.bvid == "deleted" %}
+    {% if opus.status == "deleted" %}
       删稿
-    {% elsif opus.bvid == "producing" %}
+    {% elsif opus.status == "producing" %}
       制作中
     {% else %}
       <a href="https://www.bilibili.com/video/{{ opus.bvid }}/">{{ opus.bvid }}</a>
