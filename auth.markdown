@@ -49,8 +49,9 @@ table {
   <td>二创完整标题</td>
   <td><input id="input_title" /></td>
 </tr>
+
 {% for field in site.data.auth %}
-<tr id={{ field.id }}>
+<tr id="{{ field.id }}">
   <td>{{ field.key }}</td>
   <td>
   {% for option in field.options %}
@@ -90,7 +91,7 @@ table {
   </ol> </td>
 </tr>
 <tr>
-  <td colspan=2>
+  <td colspan="2">
     <button onclick="submit_form()">同意协议，生成申请书</button>
     <a id="hint"></a>
   </td>
