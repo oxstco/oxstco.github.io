@@ -44,7 +44,7 @@
     expected_indices: 0, 1
 - 
   id: lyrics_text
-  key: 新歌词全文
+  key: 歌词大意
   input_type: textarea
   condition:
     key: cover_lyrics
