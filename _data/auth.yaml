@@ -16,7 +16,9 @@
   input_other: true
   options:
     - 哔哩哔哩
+    - AcFun
     - 网易云音乐
+    - 腾讯音乐
 - 
   id: music_mod_type
   key: 二创类型（多选）

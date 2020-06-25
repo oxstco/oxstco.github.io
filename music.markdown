@@ -12,6 +12,7 @@ table {
 </style>
 
 - 点击表头可按相应字段排序。
+- 部分平台上“湿身”为敏感词，故《湿身大雨》又名《牛肉汤面大雨》。
 
 <table class="js-sort-table" id="demo1">
 <thead>
