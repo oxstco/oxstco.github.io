@@ -12,6 +12,8 @@ table {
 </style>
 
 - 点击表头可按相应字段排序。
+- “正版授权平台”未列出的，皆为无授权转载。
+- “Q音”包含QQ音乐、酷狗、酷我、5sing
 - 部分平台上“湿身”为敏感词，故《湿身大雨》又名《牛肉汤面大雨》。
 
 <table class="js-sort-table" id="demo1">
@@ -19,21 +21,27 @@ table {
 <tr>
 	<th>编号</th>
 	<th>标题</th>
-	<th>链接</th>
+	<th>正版授权平台</th>
 </tr>
 </thead>
 <tbody>
 {% for opus in site.data.opera %}
 <tr>
   <td>{{ opus.id }}</td>
-  <td>{{ opus.title }}</td>
+  <td>
+    {% if opus.bvid %}
+      <a href="https://www.bilibili.com/video/{{ opus.bvid }}/">{{ opus.title }}</a>
+    {% else %}
+      {{ opus.title }}
+    {% endif %}
+  </td>
   <td>
     {% if opus.status == "deleted" %}
-      删稿
+      (删稿)
     {% elsif opus.status == "producing" %}
-      制作中
+      (制作中)
     {% else %}
-      <a href="https://www.bilibili.com/video/{{ opus.bvid }}/">{{ opus.bvid }}</a>
+      {{ opus.platforms }}
     {% endif %}
   </td>
 </tr>
