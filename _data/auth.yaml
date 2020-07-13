@@ -4,11 +4,9 @@
   input_type: radio
   input_other: true
   options:
-    - 音乐类二次创作
-    - 用作视频或直播 BGM
+    - 翻唱/翻调/改编曲/演奏
+    - 用作视频或直播背景音乐
     - 使用 PV 或封面素材
-    - 同人文
-    - 曲拟
 -
   id: platform
   key: 发布平台
@@ -20,79 +18,20 @@
     - 网易云音乐
     - 腾讯音乐
 - 
-  id: music_mod_type
-  key: 二创类型（多选）
-  input_type: checkbox
-  input_other: true
-  options:
-    - 真人歌手翻唱
-    - 合成歌声翻调
-    - 改编曲/Remix/变土嗨
-    - 演奏
-  condition:
-    key: auth_type
-    expected_indices: 0
-- 
   id: cover_lyrics
   key: 是否改词
   input_type: radio
   options:
-    - 使用原词及原发音
-    - 使用原词，改用方言发音
-    - 保持原意并翻译填词
-    - 改词
+    - 一字不改
+    - 改词/断章取义/翻译
   condition:
-    key: music_mod_type
-    expected_indices: 0, 1
+    key: auth_type
+    expected_indices: 0
 - 
   id: lyrics_text
   key: 歌词大意
   input_type: textarea
   condition:
     key: cover_lyrics
-    expected_indices: 2, 3
-- 
-  id: cover_vsqx
-  key: 扒谱需求
-  input_type: radio
-  options:
-    - 无需扒谱/我自己会扒谱/我会找人扒谱
-    - 需要提供 MIDI 或 VSQX 文件（降低通过率，慎选）
-  condition:
-    key: music_mod_type
     expected_indices: 1
-- 
-  id: need_inst
-  key: 是否需要伴奏
-  input_type: radio
-  options:
-    - 不需要/我已经有了/我知道上哪儿弄
-    - 需要单独定制伴奏
-  condition:
-    key: auth_type
-    expected_indices: 0
-- 
-  id: inst_need_minus
-  key: 伴奏定制需求
-  input_type: checkbox
-  input_other: true
-  options:
-    - +4 Keys
-    - -4 Keys
-    - 保留动态范围
-  condition:
-    key: need_inst
-    expected_indices: 1
-- 
-  id: pv_plan
-  key: 关于 PV
-  input_type: radio
-  options:
-    - 使用原版 PV，一字不改
-    - 基于原版 PV，仅修改 staff
-    - 基于原版 PV，修改 staff，也修改歌姬形象等其它东西
-    - 另行自制 PV 或无 PV
-  condition:
-    key: auth_type
-    expected_indices: 0
 
