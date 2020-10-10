@@ -48,7 +48,7 @@
   platforms: B站
 -
   id: Op. 8
-  title: 湿身大雨
+  title: 湿身大雨（牛肉汤面大雨）
   status: open
   bvid: BV1Dt4y1X7mT
   platforms: B站/A站/网易云/腾讯
@@ -58,4 +58,10 @@
   status: open
   bvid: BV1i54y1U7tV
   platforms: B站/A站/网易云
+-
+  id: Op. 14
+  title: 没灵感
+  status: open
+  bvid: BV1SA411778C
+  platforms: B站/A站/网易云/腾讯
 
